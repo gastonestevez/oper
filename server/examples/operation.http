@@ -1,0 +1,46 @@
+GET http://localhost:3000/operations
+Content-Type: application/json
+
+{
+
+}
+
+####
+
+POST http://localhost:3000/operations
+Content-Type: application/json
+
+{
+    "concept": "Lechuga 10kg",
+    "amount": "1000",
+    "date": "2020-12-24",
+    "type": "ingreso"
+}
+
+####
+
+GET http://localhost:3000/operations/2
+Content-Type: application/json
+
+{
+
+}
+
+
+####
+
+PUT http://localhost:3000/operations/2
+Content-Type: application/json
+
+{
+    "concept": "Manzanas 10kg",
+    "date": "2020-12-24",
+    "type": "ingreso"
+}
+
+DELETE http://localhost:3000/operations/2
+Content-Type: application/json
+
+{
+
+}
